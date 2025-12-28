@@ -627,6 +627,9 @@
     "error": "翻译失败，请重试",
     "listening": "正在听...",
     "start_recording": "点击开始语音输入",
-    "stop_recording": "点击停止录音"
+    "stop_recording": "点击停止录音",
+    "mother_language": "母语",
+    "destination_language": "目的地",
+    "common_language": "通用语"
   }
 }

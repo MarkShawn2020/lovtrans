@@ -627,6 +627,9 @@
     "error": "Translation failed, please try again",
     "listening": "Listening...",
     "start_recording": "Click to start voice input",
-    "stop_recording": "Click to stop recording"
+    "stop_recording": "Click to stop recording",
+    "mother_language": "Native",
+    "destination_language": "Destination",
+    "common_language": "Common"
   }
 }

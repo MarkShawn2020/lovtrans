@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-
 @layer theme, base, components, utilities;
 
 @import 'tailwindcss';
@@ -22,7 +20,11 @@
 
 /* Design System Variables */
 @theme {
-  --color-primary: #d97757;
+  /* Font stacks - --font-sans and --font-mono are set by Next.js font system */
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  /* Note: --color-primary is defined via @theme inline to reference :root --primary
+     This enables runtime theme switching (light/dark mode) */
   --color-text-main: #181818;
   --color-text-faded: #87867f;
   --color-background-main: #f9f9f7;
@@ -61,14 +63,8 @@
 
 /* Typography System */
 @layer base {
-  :root {
-    --font-sans: 'Fira Code', ui-sans-serif, system-ui, sans-serif;
-    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
   body {
     @apply bg-background text-foreground antialiased;
-    font-family: var(--font-sans);
   }
 
   /* Display Typography - Lovpen Integration */

@@ -9,6 +9,7 @@ import { cn } from '@/utils/Helpers';
 
 type TranslateOutputProps = {
   text: string;
+  languageLabel?: string;
   onPlayAudio?: () => void;
   audioEnabled?: boolean;
   isPlaying?: boolean;
@@ -16,6 +17,7 @@ type TranslateOutputProps = {
 
 export function TranslateOutput({
   text,
+  languageLabel,
   onPlayAudio,
   audioEnabled = false,
   isPlaying = false,
@@ -52,8 +54,16 @@ export function TranslateOutput({
 
   return (
     <div className="rounded-xl border border-border bg-card p-6">
+      {/* Language label */}
+      {languageLabel && (
+        <div className="mb-2">
+          <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide">
+            {languageLabel}
+          </span>
+        </div>
+      )}
       {/* Large text display for showing to others */}
-      <div className="mb-4 min-h-[150px]">
+      <div className="mb-4 min-h-[100px]">
         <p className="font-serif text-3xl leading-relaxed md:text-4xl">{text}</p>
       </div>
 
