@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 @layer theme, base, components, utilities;
 
 @import 'tailwindcss';
@@ -57,9 +59,7 @@
   --border-radius-lg: 1.5rem;
 }
 
-/* Typography System - Lovpen Integration */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-
+/* Typography System */
 @layer base {
   :root {
     --font-sans: 'Fira Code', ui-sans-serif, system-ui, sans-serif;
