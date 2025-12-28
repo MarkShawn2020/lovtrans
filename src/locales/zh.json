@@ -612,5 +612,21 @@
         "answer": "绝对安全。我们采用企业级安全措施，包括静态和传输加密、定期安全审计，并遵守 GDPR 等隐私法规。"
       }
     ]
+  },
+  "Translate": {
+    "page_title": "旅游翻译",
+    "page_description": "口语化翻译，让沟通更自然",
+    "input_placeholder": "输入要翻译的内容...",
+    "translate": "翻译",
+    "translating": "翻译中...",
+    "output_placeholder": "翻译结果将显示在这里",
+    "copy": "复制",
+    "copied": "已复制",
+    "play": "播放",
+    "playing": "播放中...",
+    "error": "翻译失败，请重试",
+    "listening": "正在听...",
+    "start_recording": "点击开始语音输入",
+    "stop_recording": "点击停止录音"
   }
 }

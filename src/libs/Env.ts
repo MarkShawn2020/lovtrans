@@ -7,6 +7,16 @@ export const Env = createEnv({
     DATABASE_URL: z.string().min(1),
     BETTER_STACK_SOURCE_TOKEN: z.string().optional(),
     SUPABASE_SERVICE_ROLE_KEY: z.string().min(1).optional(),
+    // ZenMux API
+    ZENMUX_API_KEY: z.string().optional(),
+    ZENMUX_API_URL: z.string().url().default('https://zenmux.ai/api'),
+    // Volcano TTS
+    VOLCANO_TTS_APP_ID: z.string().optional(),
+    VOLCANO_TTS_ACCESS_KEY: z.string().optional(),
+    VOLCANO_TTS_RESOURCE_ID: z.string().optional(),
+    // Volcano ASR
+    VOLCANO_ASR_APP_ID: z.string().optional(),
+    VOLCANO_ASR_ACCESS_KEY: z.string().optional(),
   },
   client: {
     NEXT_PUBLIC_APP_URL: z.string().optional(),
@@ -30,5 +40,14 @@ export const Env = createEnv({
     NEXT_PUBLIC_POSTHOG_HOST: process.env.NEXT_PUBLIC_POSTHOG_HOST,
     NEXT_PUBLIC_SUPABASE_URL: process.env.NEXT_PUBLIC_SUPABASE_URL,
     NEXT_PUBLIC_SUPABASE_ANON_KEY: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
+    // ZenMux
+    ZENMUX_API_KEY: process.env.ZENMUX_API_KEY,
+    ZENMUX_API_URL: process.env.ZENMUX_API_URL,
+    // Volcano
+    VOLCANO_TTS_APP_ID: process.env.VOLCANO_TTS_APP_ID,
+    VOLCANO_TTS_ACCESS_KEY: process.env.VOLCANO_TTS_ACCESS_KEY,
+    VOLCANO_TTS_RESOURCE_ID: process.env.VOLCANO_TTS_RESOURCE_ID,
+    VOLCANO_ASR_APP_ID: process.env.VOLCANO_ASR_APP_ID,
+    VOLCANO_ASR_ACCESS_KEY: process.env.VOLCANO_ASR_ACCESS_KEY,
   },
 });
