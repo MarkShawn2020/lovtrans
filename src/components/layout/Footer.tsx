@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import React from 'react';
-import { LovwebIcon } from '../LovwebIcon';
+import { LovtransIcon } from '../LovtransIcon';
 import { SocialIcon } from '../SocialIcons';
 import { Container } from './Container';
 
@@ -27,8 +27,8 @@ const Footer = () => {
             {/* Brand */}
             <div className="lg:col-span-1">
               <Link href="/" className="flex items-center space-x-2 no-underline mb-4">
-                <LovwebIcon className="h-8 w-8" />
-                <span className="text-xl font-semibold text-text-main">Lovweb</span>
+                <LovtransIcon className="h-8 w-8" />
+                <span className="text-xl font-semibold text-text-main">Lovtrans</span>
               </Link>
               <p className="text-sm text-text-faded mb-4">
                 Production-ready Next.js SaaS Starter

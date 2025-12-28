@@ -43,7 +43,7 @@ export function ProfessionalAuthLayout({
               </svg>
             </div>
             <h1 className="text-3xl font-bold mb-2" style={{ color: '#F9F9F7', fontFamily: 'ui-sans-serif, system-ui, sans-serif' }}>
-              Lovweb
+              Lovtrans
             </h1>
             <p className="text-lg" style={{ color: 'rgba(249, 249, 247, 0.8)' }}>
               Production-ready SaaS Starter
@@ -95,7 +95,7 @@ export function ProfessionalAuthLayout({
                   color: '#181818',
                   fontFamily: 'ui-sans-serif, system-ui, sans-serif'
                 }}>
-              Lovweb
+              Lovtrans
             </h1>
           </Link>
 
@@ -127,7 +127,7 @@ export function ProfessionalAuthLayout({
           {/* Footer info */}
           <div className="mt-8 text-center">
             <p className="text-sm" style={{ color: '#87867F' }}>
-              © 2025 Lovweb by Lovstudio
+              © 2025 Lovtrans by Lovstudio
             </p>
           </div>
         </div>

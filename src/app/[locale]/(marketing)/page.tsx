@@ -122,7 +122,7 @@ export default async function Index(props: IIndexProps) {
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>
               </Link>
-              <Link href="https://github.com/lovstudio/lovweb" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/lovstudio/lovtrans" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="outline"
                   size="lg"
@@ -258,7 +258,7 @@ export default async function Index(props: IIndexProps) {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="https://github.com/lovstudio/lovweb" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/lovstudio/lovtrans" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="default"
                   size="lg"

@@ -1,6 +1,6 @@
 {
-  "name": "Lovweb - Next.js SaaS Starter",
-  "short_name": "Lovweb",
+  "name": "Lovtrans - Next.js SaaS Starter",
+  "short_name": "Lovtrans",
   "description": "Production-ready Next.js SaaS template by Lovstudio",
   "start_url": "/",
   "display": "standalone",

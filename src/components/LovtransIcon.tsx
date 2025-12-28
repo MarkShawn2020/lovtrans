@@ -1,14 +1,14 @@
 import Image from 'next/image';
 
-type LovwebIconProps = {
+type LovtransIconProps = {
   className?: string;
 };
 
-const LovwebIcon: React.FC<LovwebIconProps> = ({ className = 'h-8 w-8' }) => {
+const LovtransIcon: React.FC<LovtransIconProps> = ({ className = 'h-8 w-8' }) => {
   return (
     <Image
       src="/logo.svg"
-      alt="Lovweb"
+      alt="Lovtrans"
       width={32}
       height={32}
       className={className}
@@ -16,4 +16,4 @@ const LovwebIcon: React.FC<LovwebIconProps> = ({ className = 'h-8 w-8' }) => {
   );
 };
 
-export { LovwebIcon };
+export { LovtransIcon };

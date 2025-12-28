@@ -23,7 +23,7 @@ export const detectUserLocale = (acceptLanguage?: string | null): string => {
 };
 
 export const AppConfig = {
-  name: 'Lovweb',
+  name: 'Lovtrans',
   locales: ['zh', 'en'],
   defaultLocale: 'zh', // Default to Chinese
   localePrefix,

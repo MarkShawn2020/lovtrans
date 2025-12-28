@@ -9,7 +9,7 @@ import {cn} from '@/utils/Helpers';
 import packageJson from '../../../package.json';
 import {Button} from '../Button';
 import {LocaleSwitcher} from '../LocaleSwitcher';
-import {LovwebIcon} from '../LovwebIcon';
+import {LovtransIcon} from '../LovtransIcon';
 import {UserDropdown} from '../UserDropdown';
 import {Container} from './Container';
 import {HeaderActionSkeleton} from './HeaderActionSkeleton';
@@ -53,8 +53,8 @@ const Header = () => {
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center space-x-2 no-underline"
                               style={{color: 'var(--color-primary, #d97757)'}}>
-                            <LovwebIcon className="h-8 w-8"/>
-                            <span className="text-xl font-bold">Lovweb</span>
+                            <LovtransIcon className="h-8 w-8"/>
+                            <span className="text-xl font-bold">Lovtrans</span>
                         </Link>
                         <span
                             className="ml-2 px-2 py-1 text-xs font-medium bg-primary/10 text-primary rounded-full border border-primary/20">
