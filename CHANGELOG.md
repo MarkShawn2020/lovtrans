@@ -1,5 +1,11 @@
 # Lovtrans
 
+## 0.4.1
+
+### Patch Changes
+
+- Remove deprecated eslint config for Next.js 16 compatibility
+
 ## 0.4.0
 
 ### Minor Changes
