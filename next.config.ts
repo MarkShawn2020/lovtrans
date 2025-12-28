@@ -7,9 +7,6 @@ import './src/libs/Env';
 
 // Define the base Next.js configuration
 const baseConfig: NextConfig = {
-  eslint: {
-    dirs: ['.'],
-  },
   poweredByHeader: false,
   reactStrictMode: true,
   // Enable lovinsp for Turbopack
